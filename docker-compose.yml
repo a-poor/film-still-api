@@ -5,6 +5,9 @@ services:
       context: .
     ports:
     - 80
-    environment: {}
+    environment:
+      API_VERSION: "1.0"
+      API_VERSION: "dev"
+      # API_VERSION: "production"
     volumes: {}
       
